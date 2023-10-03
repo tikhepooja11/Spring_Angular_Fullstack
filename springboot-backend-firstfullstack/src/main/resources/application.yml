@@ -1,0 +1,25 @@
+server:
+  port: 8080
+  
+#database configuration:mysql DB
+spring:
+  datasource:
+      url: jdbc:mysql://localhost:3306/EMPLOYEE_MANAGEMENT_SYSTEM_FULLSTACK
+      username: root
+      password: pooja
+      driver-class-name: com.mysql.cj.jdbc.Driver 
+      
+#hibernate configurations
+  jpa:
+   show-sql: true
+   hibernate:
+      ddl-auto: update
+   properties:
+     hibernate:
+       dialect:  org.hibernate.dialect.MySQL55Dialect
+ 
+
+
+      
+      
+ 
